@@ -67,7 +67,7 @@ class Timer
      *
      *  This is set to true when the timeoutHandler is called into
      */
-    bool expired = true;
+    bool expired = false;
 
     /** @brief Initializes the timer object with infinite
      *         expiration time and sets up the callback handler
